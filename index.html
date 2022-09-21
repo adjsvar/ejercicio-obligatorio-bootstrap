@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Obligatorio bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Codo a Codo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link disabled">Desactivado</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3 objectfit">
+            <img src="./img/Programación-con-HTML5.jpg" class="card-img-top img-props" alt="img html">
+            <div class="card-body">
+              <h5 class="card-title">titulo 1</h5>
+              <p class="card-text">Contenido de Card</p>
+              <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="./img/css3-portada.png" class="card-img-top img-props" alt="img css">
+            <div class="card-body">
+              <h5 class="card-title">titulo 2</h5>
+              <p class="card-text">Contenido de Card</p>
+              <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="./img/bootstrap-696x365.png" class="card-img-top img-props" alt="img html">
+            <div class="card-body">
+              <h5 class="card-title">titulo 2</h5>
+              <p class="card-text">Contenido de Card</p>
+              <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <form action="" class="col container-fluid">
+          <div class="row">
+            <div class="col">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control">
+             <p><small class="text-muted">Nunca comparta su email</small></p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="passwd">Contraseña</label>
+              <input type="password" name="passwd" id="passwd" class="form-control">
+            </div>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Verificar
+            </label>
+          </div>
+          <button class="btn btn-primary">Enviar</button>
+        </form>
+      </div>      
+    </div>    
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
